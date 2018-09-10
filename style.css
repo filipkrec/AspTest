@@ -1,0 +1,78 @@
+﻿body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: darkgray;
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+    overflow: auto;
+}
+
+.tableMain {
+    border-collapse: collapse;
+}
+
+.tableMain th {
+    text-align: center;
+    line-height: 55px;
+}
+
+.tableMain tr {
+    border-bottom: solid lightgray;
+}
+
+.tableMain td {
+    text-align: center;
+    line-height: 35px;
+}
+
+.footer {
+    border: none;
+}
+
+.footer td {
+    border: none;
+}
+
+.footer th {
+    border: none;
+}
+
+.korisnici {
+    color: blue;
+}
+
+.tableHeader {
+    border: none;
+}
+
+.tableHeader td {
+    border: none;
+}
+
+.tableHeader tr {
+    border: none;
+}
+
+.button {
+    height:25px;
+    font-size:12px;
+}
+
+.divider {
+    width: 5px;
+    height: auto;
+    display: inline-block;
+}
